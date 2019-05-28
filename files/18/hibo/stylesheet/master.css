@@ -1,1 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, p, address, blockquote, pre, div, dl, dt, dd, ol, ul, li, th, td, form, fieldset, input, textarea {
+  margin: 0;
+  padding: 0; 
+}
 
+select {
+  margin: 0; 
+}
+
+html, body {
+  height: 100%; 
+}
+
+abbr, acronym {
+  border: 0 none; 
+}
+
+q:before, q:after {
+  content: ""; 
+}
+
+ul {
+  list-style: none; 
+}
+
+img {
+  border: 0 none;
+  vertical-align: top;
+  width: 100%;
+  height: auto; 
+}
+
+object {
+  outline: none; 
+}
+
+table {
+  border-spacing: 0; 
+}
+
+caption {
+  text-align: left; 
+}
+
+th, td {
+  empty-cells: show;
+  vertical-align: top;
+  text-align: left; 
+}
+
+hr {
+  display: block;
+  border-bottom: 1px solid #000;
+  border-top: 0px none;
+  border-left: 0px none;
+  border-right: 0px none; 
+}
+
+fieldset {
+  border: 0 none; 
+}
+
+label {
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+
+iframe {
+  overflow: auto;
+  border: 0 none; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%; 
+}
+
+p, address, blockquote, pre, div, abbr, acronym, dfn, cite, q, code, kbd, samp, var, dl, ol, ul, caption, th {
+  font-weight: normal;
+  font-style: normal; 
+}
+
+em, strong {
+  font-weight: bold;
+  font-style: normal; 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  background: #FFF;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-size: 1.0rem;
+  font-family: "Noto Sans Japanese",-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif; 
+}
+
+pre {
+  font-family: sans-serif; 
+}
+
+a:hover {
+	opacity: 0.9;
+}
+
+button {
+  overflow: visible; 
+}
+
+textarea {
+  overflow: auto; 
+}
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  color: inherit;
+  font: inherit; 
+}
+
+optgroup {
+  font-weight: bold; 
+}
+
+input {
+  line-height: normal; 
+}
+
+button, select {
+  text-transform: none; 
+}
+
+i {
+  font-style: normal; 
+}
+
+.pc {
+  display: block; 
+}
+
+.smt {
+  display: none; 
+}
+
+.hidden {
+  overflow: hidden; 
+}
+
+*, *:before, *:after {
+  word-break: break-all;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+}
+
+h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+.line-1_2{
+	line-height: 1.2em;
+}
+
+a{
+	font-family: "M PLUS 1p";
+}
