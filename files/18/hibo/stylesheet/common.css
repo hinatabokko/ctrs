@@ -1,1 +1,19 @@
-
+.p--header {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+	background-color: rgba(51,51,51,1.0);
+	height: 60px;
+	border-bottom: 4px solid skyblue;
+}
+.p--header a {
+	display: block;
+	max-width: 1280px;
+	text-decoration: none;
+    color: #FFF;
+	font-size: 18px;
+	line-height: 3.5em;
+	font-weight: bold;
+}
