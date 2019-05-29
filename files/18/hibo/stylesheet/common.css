@@ -1,19 +1,121 @@
+.l--header, .l--footer{
+	max-width: 1280px;
+	margin: auto;
+	position: relative;
+}
 .p--header {
     position: relative;
     display: block;
     width: 100%;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 0 0 10px;
 	background-color: rgba(51,51,51,1.0);
 	height: 60px;
-	border-bottom: 4px solid skyblue;
+	border-bottom: 4px solid green;
+	transition: all .35s;
 }
-.p--header a {
-	display: block;
-	max-width: 1280px;
+.c--logo{
 	text-decoration: none;
     color: #FFF;
 	font-size: 18px;
 	line-height: 3.5em;
 	font-weight: bold;
+	text-align: left;
+	left: 0;
+}
+.p--nav{
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	right: 0;
+	top: 0;
+	padding: 0.5px 0 0 0;
+	transition: all .35s;
+}
+.p--nav span{
+	text-align: center;
+	display: block;
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	transition: all .35s;
+}
+.p--nav span:nth-child(1){
+	margin-top: 0px;
+}
+.p--nav span:nth-child(2){
+	margin-top: 9.5px;
+}
+.p--nav span:nth-child(3){
+	margin-top: 9.5px;
+}
+.p--ham{
+	padding: 15px 10px 0 10px;
+}
+.p--nav.active{
+	background-color: green;
+}
+.p--header.open {
+	height: 100vh;
+    background-color: rgba(51,51,51,1.0);
+	opacity: 1.0;
+	transition: all .35s;
+}
+.p--header.open .p--nav span{
+	background-color: rgba(51,51,51,1.0)
+}
+.p--header.open .p--nav span:nth-child(1) {
+	margin-top: 12px;
+	padding: 1px;
+    transform: rotate(45deg);
+    transform: -moz-rotate(45deg);
+    transform: -webkit-rotate(45deg);
+    transform: -o-rotate(45deg);
+    transform: -ms-rotate(45deg);
+}
+.p--header.open .p--nav span:nth-child(2) {
+    display: none;
+}
+.p--header.open .p--nav span:nth-child(3) {
+	margin-top: -2px;
+    transform: rotate(-45deg);
+    transform: -moz-rotate(-45deg);
+    transform: -webkit-rotate(-45deg);
+    transform: -o-rotate(-45deg);
+    transform: -ms-rotate(-45deg);
+}
+.p--active-nav{
+	display: none;
+}
+.p--nav-bx{
+	position: relative;
+	padding: 30px 30px 30px 30px;
+	color: white;
+	z-index:10000;
+}
+.l--main-wrapper{
+	max-width: 1280px;
+	background-color: white;
+	position: relative;
+	display: block;
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+}
+.p--nav-filter{
+	z-index:15000;
+}
+main a, main p{
+	color: gray;
+	font-size: 15px;
+}
+main h1, main h2, main h3, main h4, main h5{
+	color: gray;
+}
+.p--footer{
+	width: 100%;
+	padding: 80px 10px 80px 10px;
+	background-color: dimgray;
+}
+footer a, footer p{
+	color: white;
 }
